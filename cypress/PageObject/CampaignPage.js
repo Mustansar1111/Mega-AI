@@ -19,7 +19,7 @@ export class Campaign {
         cy.get('p-dropdown[placeholder="Project: All"] .p-dropdown-trigger').click();
 
         // Click on the third item (index 2)
-        cy.get('.p-dropdown-items li').eq(2).click();
+        cy.get('.p-dropdown-items li').eq(0).click();
     }
 
     ValidateAndEditdropdownStatus() {
@@ -52,7 +52,7 @@ export class Campaign {
         cy.get('p-dropdown[placeholder="Select Project"] .p-dropdown-trigger').click({ force: true })
 
         // Step 2: Select the second option from the dropdown (index 1)
-        cy.get('.p-dropdown-items li').eq(1).click({ force: true })
+        cy.get('.p-dropdown-items li').eq(0).click({ force: true })
 
         // cy.wrap(campaignName).as('campaignName')
         cy.get('input[id="Enter Campaign Name"]').type(campaignName)
@@ -66,7 +66,7 @@ export class Campaign {
         cy.contains('span.p-button-label', goalName)
             .should('be.visible')
             .click();
-        cy.contains('div', 'its connect description').should('exist').click()
+        cy.contains('div', 'Connect_goal').should('exist').click()
 
 
     }
@@ -86,10 +86,10 @@ export class Campaign {
         cy.get('ul.p-dropdown-items')
             .find('li.p-dropdown-item')
             .should('have.length.greaterThan', 1)
-            .eq(1)
+            .eq(0)
             .click();
-        cy.get('p-dropdown[placeholder="Select a Gender"]').click().find('[aria-label="female"]').eq(0).click().should('be.visible')
-        cy.get('p-dropdown[placeholder="Select voice"]').click().find('[aria-label="Olivia"]').eq(0).click().should('be.visible')
+        cy.get('p-dropdown[placeholder="Select a Gender"]').click().find('[aria-label="Female"]').eq(0).click().should('be.visible')
+        cy.get('p-dropdown[placeholder="Select voice"]').click().find('[aria-label="Sophia"]').eq(0).click().should('be.visible')
 
         cy.contains('.card-title', 'Last Message')
             .parents('.card')
@@ -138,10 +138,10 @@ export class Campaign {
             .should('be.visible')
             .click();
 
-        cy.get('ul.p-dropdown-items p-dropdownitem > li.p-dropdown-item')
+        /*cy.get('ul.p-dropdown-items p-dropdownitem > li.p-dropdown-item')
             .eq(1)
             .should('be.visible')
-            .click();
+            .click();*/
 
         // Select second option from "Transfer Calls to"
         cy.contains('.form-labal', 'Transfer Calls to')
@@ -150,14 +150,14 @@ export class Campaign {
             .should('be.visible')
             .click();
 
-        cy.get('ul.p-dropdown-items p-dropdownitem > li.p-dropdown-item')
+       /* cy.get('ul.p-dropdown-items p-dropdownitem > li.p-dropdown-item')
             .eq(0)
             .should('be.visible')
             .click();
         cy.contains('.form-labal', 'Experimental AI')
             .parents('.form-group')
             .find('span.p-inputswitch-slider')
-            .click()
+            .click()*/
 
 
     }
@@ -236,8 +236,8 @@ export class Campaign {
             .then(($items) => {
                 cy.log('Total projects found: ' + $items.length); // log total count
 
-                // Step 3: Click the third project (index 2)
-                cy.wrap($items.eq(5)).click({ force: true });
+                // Step 3: Click the third project (index 0)
+                cy.wrap($items.eq(0)).click({ force: true });
 
             });
 

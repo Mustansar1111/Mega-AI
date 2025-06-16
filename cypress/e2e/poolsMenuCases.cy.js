@@ -27,7 +27,7 @@ describe("poolsMenuCases", () => {
 
     it('TC_Pools_Libraries-001 - Verify redirection to the Pools page', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -37,7 +37,7 @@ describe("poolsMenuCases", () => {
 
     it('TC_Pools_Libraries-002 - Verify redirection to the Pools page', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -46,7 +46,7 @@ describe("poolsMenuCases", () => {
 
     it('TC_Pools_Libraries-003 - Verify + button redirects to Upload New Pool page', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -56,7 +56,7 @@ describe("poolsMenuCases", () => {
 
     it('TC_Pools_Libraries-004 - Verify Edit icon opens Edit Pool Info modal', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -65,7 +65,7 @@ describe("poolsMenuCases", () => {
 
     it('TC_Pools_Libraries-005 - Verify Delete icon opens confirmation modal', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -73,14 +73,14 @@ describe("poolsMenuCases", () => {
     })
 
     it('TC_Pools_Libraries_006 - Verify Project filter dropdown works correctly', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
         poolss.verifyProjectFilterDropdownWorksCorrectly()
     });
     it('TC_Pools_Libraries_007 - Verify Campaigns filter dropdown works correctly', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -89,7 +89,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_Pools_Libraries_008 - Verify Status filter dropdown works correctly', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -97,7 +97,7 @@ describe("poolsMenuCases", () => {
         poolss.VerifyStatusFilterDropdownWorksCorrectly()
     });
     it('TC_Pools_Libraries_012 - Verify pagination controls work', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -106,7 +106,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_Pools_Libraries_015 - Verify clicking pool name redirects to contact list', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -115,7 +115,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_Edit-Pool-info_002 - Validate Modal Fields', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -127,7 +127,7 @@ describe("poolsMenuCases", () => {
 
 
     it(' TC_Edit-Pool-info_003 - Pool Name Pre-filled', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -136,7 +136,7 @@ describe("poolsMenuCases", () => {
         poolss.verifyNamePreFilled()
     })
     it('TC_Edit-Pool-info_004 - Description Pre-filled', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -145,7 +145,7 @@ describe("poolsMenuCases", () => {
         poolss.verifyDescriptionPrefilled()
     });
     it('TC_Edit-Pool-info_005 - Country is Read-only', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -156,7 +156,7 @@ describe("poolsMenuCases", () => {
 
 
     it('TC_Edit-Pool-info_009 -Blank Pool Name Validation', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -169,7 +169,7 @@ describe("poolsMenuCases", () => {
 
 
     it('TC_Edit-Pool-info_011 -Blank Description not Allowed', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -181,7 +181,7 @@ describe("poolsMenuCases", () => {
 
 
     it('TC_Edit-Pool-info_012 - Close Modal with X button', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -190,7 +190,7 @@ describe("poolsMenuCases", () => {
         poolss.closeModalWithXButton()
     });
     it('TC_Delete-Pool-Modal_002 - Modal Shows Correct Text', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -202,7 +202,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_Delete-Pool-Modal_003 - Keep Button Cancels Action', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -212,7 +212,7 @@ describe("poolsMenuCases", () => {
         cy.contains('Delete Pool').should('not.exist');
     });
     it('TC_Delete-Pool-Modal_004 - Delete Button Deletes Pool', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -224,7 +224,7 @@ describe("poolsMenuCases", () => {
     })
 
     it('TC_Delete-Pool-Modal_005 - Close Modal with Outside Click', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -235,7 +235,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_UploadPool_001 - Verify redirection to "Upload New Pool" page', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -245,7 +245,7 @@ describe("poolsMenuCases", () => {
 
 
     it(' TC_UploadPool_002 - Verify all fields are displayed', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -257,7 +257,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_UploadPool_003 - Verify Continue to upload button is disabled initially', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -269,7 +269,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_UploadPool_004 - Verify Continue to upload button enabled when all fields are filled', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -282,7 +282,7 @@ describe("poolsMenuCases", () => {
 
 
     it('TC_UploadPool_005 - Verify redirection on clicking Continue to upload', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -295,7 +295,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_UploadPool_006 - Verify Cancel button functionality', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -306,7 +306,7 @@ describe("poolsMenuCases", () => {
     });
 
     it('TC_UploadPool_008 – Verify Project dropdown loads available projects', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -318,7 +318,7 @@ describe("poolsMenuCases", () => {
 
 
     it('TC_UploadPool_009 – Verify Country dropdown loads available countries', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -330,7 +330,7 @@ describe("poolsMenuCases", () => {
 
 
     it('TC_UploadList_001 - Verify redirection to Upload New List page.', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -348,7 +348,7 @@ describe("poolsMenuCases", () => {
 
     it('TC_UploadList_002-Verify Upload Pool UI and functionality', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -376,7 +376,7 @@ describe("poolsMenuCases", () => {
     })
     it('TC_UploadList_012-Verify redirection on successful upload', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -392,7 +392,7 @@ describe("poolsMenuCases", () => {
 
     it('TC_UploadList_013- Verify Cancel button redirects correctly', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()
@@ -408,7 +408,7 @@ describe("poolsMenuCases", () => {
 
    it('TC_UploadList_014- Verify exit button works', () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         poolss.goTOPools()

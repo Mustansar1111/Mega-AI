@@ -19,14 +19,14 @@ describe("createProject", () => {
     });
 
     it("Verify Clicking '+' Add button Redirects user to the Create new Project", () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
         createproject.clickOnplusButtonOnProjectPage()
     });
     it("Verify All Elements on the 'Create New Project' Page" , () => {
-       const clientName = 'MEGA-Bhargav'
+       const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -37,7 +37,7 @@ describe("createProject", () => {
    
     
     it("Verify 'Next Step' Button is Enabled After Filling All Fields" , () => {
-          const clientName = 'MEGA-Bhargav'
+          const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -47,7 +47,7 @@ describe("createProject", () => {
     })
     it("Verify 'Cancel' Button Functionality" , () => {
 
-          const clientName = 'MEGA-Bhargav'
+          const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()

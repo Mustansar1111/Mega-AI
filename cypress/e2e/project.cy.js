@@ -21,13 +21,13 @@ describe("Project", () => {
 
 
     it(" TC_Project_001 - Verify,Project Page redirection", () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
     })
     it("TC_Project_002, Verify, All elements present on the Projects page.", () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -39,7 +39,7 @@ describe("Project", () => {
         projectpage.verifyPagination()
     })
     it('TC_Project_003 - Verify Pools filter functionality', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -49,7 +49,7 @@ describe("Project", () => {
 
     })
     it('TC_Project_005 - Verify Campaigns filter functionality', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -58,7 +58,7 @@ describe("Project", () => {
         projectpage.verifyProjectsFiltered()
     })
     it('TC_Project_006 - Verify Clear Button Appears When Campaign Filter is Applied', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -68,7 +68,7 @@ describe("Project", () => {
     })
 
     it('TC_Project_007 - Verify Search field functionality by Exact Project Name', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -77,7 +77,7 @@ describe("Project", () => {
     })
 
     it('TC_Project_008 - Verify Clicking the Clear Button Removes Pools Filter', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -87,7 +87,7 @@ describe("Project", () => {
     })
 
     it('TC_Project_012 - Verify Clearing the Search Field', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -97,7 +97,7 @@ describe("Project", () => {
     })
 
     it('TC_Project_017 - Verify Delete Button Functionality', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -107,7 +107,7 @@ describe("Project", () => {
     })
 
     it('TC_Project_018 - Verify Cross (X) Button Closes Delete Modal', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()
@@ -117,7 +117,7 @@ describe("Project", () => {
     })
 
     it('TC_Project_019 - Verify Pagination Functionality', () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         createproject.gotoProjects()

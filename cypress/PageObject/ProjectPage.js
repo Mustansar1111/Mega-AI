@@ -33,7 +33,7 @@ export class ProjectPage {
       cy.visit('/dashboard')
       cy.url().should('include', '/dashboard');
 
-      cy.get("span[class='ng-star-inserted']").should('be.visible').and('contain.text', '(MEGA-Bhargav)');
+      cy.get("span[class='ng-star-inserted']").should('be.visible').and('contain.text', '(Sammi)');
       cy.wait(1000);
       cy.get("body > app-root:nth-child(3) > app-shared-layout:nth-child(2) > div:nth-child(1) > div:nth-child(1) > app-shared-sidebar:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)").should('be.visible').click();
 
@@ -172,7 +172,7 @@ selectFirstCampaign(){
   }
 
   gotoClient(name) {
-    cy.get('.p-paginator-page').eq(1).should('exist').click()
+    //cy.get('.p-paginator-page').eq(1).should('exist').click()
     cy.get('.p-datatable-table tbody tr td:nth-child(1)').contains(name).should('exist').click()
     cy.url().should("include", "/dashboard");
     cy.get('.header-title').contains('Dashboard (' + name + ')').should('exist')

@@ -21,7 +21,7 @@ describe("campaignCreationCases", () => {
 
     it("TC_Campaign_003 , Verify filtering campaigns by Campaign Type ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -33,7 +33,7 @@ describe("campaignCreationCases", () => {
     })
     it("TC_Campaign_004 , Verify filtering campaigns by Project ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -45,7 +45,7 @@ describe("campaignCreationCases", () => {
 
     it("TC_Campaign_005 , Verify filtering campaigns by Status ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -56,7 +56,7 @@ describe("campaignCreationCases", () => {
     })
     it("TC_Campaign_008 , Verify sorting functionality on campaign columns", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -69,7 +69,7 @@ describe("campaignCreationCases", () => {
     it("TC_Campaign_010 , Verify clicking + button redirects to the Create New Campaign page", () => {
         const campaignName = faker.company.name()
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -94,7 +94,7 @@ describe("campaignCreationCases", () => {
 
 
     it("TC_Create-Campaign_001 , Verify Select dropdown loads projects", () => {
-        const clientName = 'MEGA-Bhargav';
+        const clientName = 'Sammi';
         clients.clickonclients();
         project.gotoClient(clientName);
         campaign.gotoCampaign();
@@ -104,7 +104,7 @@ describe("campaignCreationCases", () => {
     })
 
     it("TC_Create-Campaign_003 , Verify project selection autofills", () => {
-        const clientName = 'MEGA-Bhargav';
+        const clientName = 'Sammi';
         clients.clickonclients();
         project.gotoClient(clientName);
         campaign.gotoCampaign();

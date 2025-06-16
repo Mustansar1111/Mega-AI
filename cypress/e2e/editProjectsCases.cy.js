@@ -20,7 +20,7 @@ describe("editProjectsCases", () => {
     it("Validate that user is able to Edit,Save,Delete basic info of any selected project", () => {
         const name = ('Editing Porject Name ' + reuseableCode.generateRandomString(5))
         clients.clickonclients()
-        //project.gotoClientMegaBhargav('MEGA-Bhargav')
+        //project.gotoClientMegaBhargav('Sammi')
         const clientName = 'Sammi'
         project.gotoClient(clientName)
         project.gotoProjectsPage(clientName)
@@ -40,18 +40,18 @@ describe("editProjectsCases", () => {
 
     })
     it("Validate that user is able to Edit,Save,Delete Pools step of any selected project", () => {
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
 
         clients.clickonclients()
-        project.gotoClient('MEGA-Bhargav')
-        project.gotoProjectsPage('MEGA-Bhargav')
+        project.gotoClient('Sammi')
+        project.gotoProjectsPage('Sammi')
         project.validateEditPools()
         createproject.clickButton('Save')
         createproject.validateToastMessage('Success')
     })
     it("Validate that user is able to Edit,Save,Delete Scripts step of any selected project", () => {
         clients.clickonclients()
-        project.gotoClientMegaBhargav('MEGA-Bhargav')
+        project.gotoClientMegaBhargav('Sammi')
         project.gotoProjectsPage()
         project.validateEditScipts('Hi,I am Lisa from creditor,talking to Mona Lisa editing script')
         createproject.clickButton('Save')
@@ -59,7 +59,7 @@ describe("editProjectsCases", () => {
     })
     it("Validate that user is able to Edit,Save,Delete Settings step of any selected project", () => {
         clients.clickonclients()
-        project.gotoClientMegaBhargav('MEGA-Bhargav')
+        project.gotoClientMegaBhargav('Sammi')
         project.gotoProjectsPage()
         project.validateEditSettings()
         createproject.clickButton('Save')
@@ -67,7 +67,7 @@ describe("editProjectsCases", () => {
     })
     it("Validate that user is able to Edit,Save,Delete Dialing step of any selected project", () => {
         clients.clickonclients()
-        project.gotoClientMegaBhargav('MEGA-Bhargav')
+        project.gotoClientMegaBhargav('Sammi')
         project.gotoProjectsPage()
         project.validateEditDialing()
         createproject.setStatusToggles()

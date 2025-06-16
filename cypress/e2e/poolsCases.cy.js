@@ -17,14 +17,14 @@ describe("poolsCases", () => {
 
     it("Verify the complete flow to Pool's Step in Project Creation", () => {
         clients.clickonclients()
-        createproject.validatePoolsStep('MEGA-Bhargav', 'Testing Project', 'Testing Mega AI Pools step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
+        createproject.validatePoolsStep('Sammi', 'Testing Project', 'Testing Mega AI Pools step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
         createproject.clickButton('Next Step')
         createproject.selectGoal()
         createproject.clickButton('Next Step')
     })
     it("Validate that user is able to move to Next Step by selecting any already created pools", () => {
         clients.clickonclients()
-        createproject.validatePoolsStep('MEGA-Bhargav', 'Testing Project', 'Testing Mega AI Pools step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
+        createproject.validatePoolsStep('Sammi', 'Testing Project', 'Testing Mega AI Pools step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
         createproject.clickButton('Next Step')
         createproject.selectGoal()
         createproject.clickButton('Next Step')
@@ -34,7 +34,7 @@ describe("poolsCases", () => {
     it("Validate that user is able to move to Next Step by uploading new pool", () => {
         const poolName='Testing'
         clients.clickonclients()
-        createproject.validatePoolsStep('MEGA-Bhargav', 'Testing Project', 'Testing Mega AI Pools step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
+        createproject.validatePoolsStep('Sammi', 'Testing Project', 'Testing Mega AI Pools step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
         createproject.clickButton('Next Step')
         createproject.selectGoal()
         createproject.clickButton('Next Step')

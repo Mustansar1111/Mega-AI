@@ -52,7 +52,7 @@ export class CreateProject {
       cy.visit('/dashboard')
       cy.url().should('include', '/dashboard');
 
-      cy.get("span[class='ng-star-inserted']").should('be.visible').and('contain.text', '(MEGA-Bhargav)');
+      cy.get("span[class='ng-star-inserted']").should('be.visible').and('contain.text', '(Sammi)');
       cy.wait(1000);
       cy.get('[class="px-2 relative group ng-star-inserted"] [class*="border-round-sm relative"]').should('be.visible').click();
 
@@ -65,7 +65,7 @@ export class CreateProject {
   }
   verifyElementsCreateNewProjectPage() {
 
-    cy.get("span[class='ng-star-inserted']").should('be.visible').and('contain.text', '(MEGA-Bhargav)');
+    cy.get("span[class='ng-star-inserted']").should('be.visible').and('contain.text', '(Sammi)');
   }
   verifyValidInputProjectNameField() {
     cy.get('input[formcontrolname="projectName"]')
@@ -133,13 +133,13 @@ cy.url('include', '/Projects')
     cy.get('.p-paginator-page').eq(1).should('exist').click()
     cy.get('.p-datatable-table tbody tr td:nth-child(1)').contains(name).should('exist').click()
     cy.url().should("include", "/dashboard");
-    cy.get('.header-title').contains('Dashboard (MEGA-Bhargav)').should('exist')
+    cy.get('.header-title').contains('Dashboard (Sammi)').should('exist')
     cy.get('[class="sidebarMenu-icon ng-star-inserted"]').eq(4).should('exist').click()
     cy.url().should("include", "/projects");
-    cy.get('.header-title').contains('Projects (MEGA-Bhargav)').should('exist')
+    cy.get('.header-title').contains('Projects (Sammi)').should('exist')
     cy.get('.p-button.p-component').should('exist').click()
     cy.url().should("include", "/projects/create");
-    cy.get('.header-title').contains('Create Project (MEGA-Bhargav)').should('exist')
+    cy.get('.header-title').contains('Create Project (Sammi)').should('exist')
     cy.get('[class="form-labal"]').contains('Project Name').should('exist')
     cy.get('#projectName').should('exist').clear().type(projectName)
     cy.get('[class="form-labal"]').contains('Project Description').should('exist')
@@ -177,7 +177,7 @@ cy.url('include', '/Projects')
   clickUploadPool() {
     cy.get('.p-button-outlined').contains('Upload Pool').should('exist').click()
     cy.wait(2000)
-    cy.get('.header-title').contains('Pool Libraries (MEGA-Bhargav)').should('exist')
+    cy.get('.header-title').contains('Pool Libraries (Sammi)').should('exist')
   }
   addPoolName(poolName) {
     cy.get('[class="form-labal"]').contains('Pool Name').should('exist')

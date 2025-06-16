@@ -23,7 +23,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit_Basic-Info_001 , Verify redirection to Edit Campaign page (Basic Info) ", () => {
 
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -34,7 +34,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit_Basic-Info_002 , Verify only Name field is editable ", () => {
 
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -45,7 +45,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit_Basic-Info_003 , Verify Name field accepts valid data ", () => {
 
         
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -58,7 +58,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit_Basic-Info_004 , Verify Name field mandatory validation ", () => {
 
         const camp = 'Updated Campaign Name'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -70,7 +70,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit- Campaign (Goals)_001 , Verify redirection to Goals page ", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -82,7 +82,7 @@ describe("editCampaignCases", () => {
 
     it("TC_Edit- Campaign (Goals)_002 , Verify UI elements on Goals page", () => {
         const camp = 'dsfd'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -93,7 +93,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit- Campaign (Goals)_005 , Verify ability to change goal selection", () => {
 
         const camp = 'dsfd'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -106,7 +106,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_001 , Verify redirection to Pools page", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -118,7 +118,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_002 , Verify UI elements on Pools page", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -132,7 +132,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_004 , Verify ability to select/deselect pools", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -144,7 +144,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_005 , Verify pool data visibility", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -157,7 +157,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_007 , Verify Actions dropdown options", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -170,7 +170,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_008 , Verify Resume action functionality", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -183,7 +183,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_009 , Verify Duplicate action functionality", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -196,7 +196,7 @@ describe("editCampaignCases", () => {
     it("TC_Edit-Campaign(Pools)_010 , Verify Delete action functionality", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -208,7 +208,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign(Script)_001 - Verify redirection to Script page', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -220,7 +220,7 @@ describe("editCampaignCases", () => {
     it('TC_Edit-Campaign(Script)_002 - Verify UI elements on Script page', () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -231,7 +231,7 @@ describe("editCampaignCases", () => {
     })
     it('TC_Edit-Campaign(Script)_003 - Verify First Message field editable', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -243,7 +243,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign(Script)_004 -Edit Last Message field and save', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -255,7 +255,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign(Script)_005, Verify Gender dropdown options', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -267,7 +267,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign(Script)_006, Select Gender and Save', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -279,7 +279,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign(Script)_007 – Voice options based on Gender', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -290,7 +290,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign(Script)_009 – Verify Domain Library dropdown options', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -301,7 +301,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign(Script)_011 – Verify System Prompts field editable', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -312,7 +312,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Settings)_001 – Verify redirection to Settings page', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -324,7 +324,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Settings)_002 – Verify pre-filled data in Settings page', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -338,7 +338,7 @@ describe("editCampaignCases", () => {
 
     it.only('TC_Edit-Campaign (Settings)_004 – Verify Campaign Priority slider value', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -351,7 +351,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Settings)_006 – Verify SMS Template dropdown options', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -363,7 +363,7 @@ describe("editCampaignCases", () => {
     })
     it('TC_Edit-Campaign (Settings)_007 – Verify selection of SMS Template', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -374,7 +374,7 @@ describe("editCampaignCases", () => {
     })
     it('TC_Edit-Campaign (Settings)_009 – Select Transfer Calls to option', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -385,7 +385,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Settings)_011 – Verify Actions dropdown options', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -396,7 +396,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Dialing)_001, Verify redirection to Dialing page', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -406,7 +406,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Dialing)_002, Verify pre-filled data', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -416,7 +416,7 @@ describe("editCampaignCases", () => {
     })
     it('TC_Edit-Campaign (Dialing)_004, Verify enabling/disabling days status toggle', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -427,7 +427,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Dialing)_005, VVerify start and stop time selection', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -440,7 +440,7 @@ describe("editCampaignCases", () => {
 
     it('TC_Edit-Campaign (Dialing)_008, Verify Max. Days Ahead input', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -450,7 +450,7 @@ describe("editCampaignCases", () => {
     })
     it('TC_Edit-Campaign (Dialing)_010, Verify mandatory fields validation', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -465,7 +465,7 @@ describe("editCampaignCases", () => {
 
 it('TC_Edit-Campaign (Dialing)_014  , Verify Actions dropdown options on Dialing page', () => {
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -481,7 +481,7 @@ it('TC_Edit-Campaign (Dialing)_014  , Verify Actions dropdown options on Dialing
 it("TC_Edit-Campaign(Dialing)_015 , Verify Resume action functionality from Dialing page", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -494,7 +494,7 @@ it("TC_Edit-Campaign(Dialing)_015 , Verify Resume action functionality from Dial
 it("TC_Edit-Campaign(Dialing)_016 , Verify Duplicate action functionality from Dialing page", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -506,7 +506,7 @@ it("TC_Edit-Campaign(Dialing)_016 , Verify Duplicate action functionality from D
 it("TC_Edit-Campaign(Dialing)_017 , Verify Duplicate action functionality from Dialing page", () => {
 
         const camp = 'testing'
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()

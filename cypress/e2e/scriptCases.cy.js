@@ -16,7 +16,7 @@ describe("scriptCases", () => {
     })
     it("Verify the complete flow to Script Step in Project Creation and validate all fields", () => {
         clients.clickonclients()
-        createproject.validatePoolsStep('MEGA-Bhargav', 'Testing Project', 'Testing Mega AI Script step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
+        createproject.validatePoolsStep('Sammi', 'Testing Project', 'Testing Mega AI Script step', 'Debt Collection', '(+92) Pakistan', 'Asia/Karachi (UTC +05:00)')
         createproject.clickButton('Next Step')
         createproject.selectGoal()
         createproject.clickButton('Next Step')

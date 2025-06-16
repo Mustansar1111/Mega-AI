@@ -23,7 +23,7 @@ describe("testContactModal", () => {
 
     it("TC_Modal_001 , Redirect to Test Call modal ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -36,7 +36,7 @@ describe("testContactModal", () => {
 
     /*it("TC_Modal_005 , Eye icon - view contact details ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -45,7 +45,7 @@ describe("testContactModal", () => {
     })*/
     it("TC_Modal_007 , Cancel button functionality ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -55,7 +55,7 @@ describe("testContactModal", () => {
     })
     it("TC_Modal_008 ,Create New Contact button functionality ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -66,7 +66,7 @@ describe("testContactModal", () => {
 
     it("TC_Create_001 ,Redirect to Create New Test Contact form ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
@@ -78,7 +78,7 @@ describe("testContactModal", () => {
 
  it("TC_Create_002 ,Verify all form elements are present ", () => {
 
-        const clientName = 'MEGA-Bhargav'
+        const clientName = 'Sammi'
         clients.clickonclients()
         project.gotoClient(clientName)
         campaign.gotoCampaign()
