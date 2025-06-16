@@ -12,9 +12,9 @@ This repository showcases my test automation work using Cypress, integrated with
 > Featuring test automation for Login, Dashboard, Campaigns, Pools, and Settings modules.
 
 Screenshots:
-- ![Login Page](./screenshots/Capture1)
-- ![Dashboard](./screenshots/Capture 3)
-- ![Campaign Settings](./screenshots/Capture4)
+- ![Login Page](./screenshots/cc)
+- ![Dashboard](./screenshots/ccc)
+- ![Campaign Settings](./screenshots/cccc)
 
 ---
 
